@@ -201,4 +201,33 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.vt_avail_ovr=1 \
     persist.dbg.wfc_avail_ovr=1
 
+#Date Fixes
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.vendor.delta_time.enable=true \
+persist.delta_time.enable=true
 
+# Default sounds
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.ringtone=Ganymede.ogg \
+    ro.config.notification_sound=Carme.ogg \
+    ro.config.alarm_alert=Argon.ogg
+
+#touch improvements
+PRODUCT_PROPERTY_OVERRIDES += \
+	touch.pressure.scale=0.001 \
+	persist.sys.ui.hw=1 \
+	view.scroll_friction=10 \
+	touch.size.calibration=diameter \
+	touch.size.scale=1 \
+	touch.size.bias=0 \
+	touch.size.isSummed=0 \
+	touch.pressure.scale=0.001 \
+	touch.orientation.calibration=none \
+	touch.distance.calibration=none \
+	touch.distance.scale=0 \
+	touch.coverage.calibration=box \
+	touch.gestureMode=spots \
+	MultitouchSettleInterval=1ms \
+	MultitouchMinDistance=1px \
+	TapInterval=1ms \
+	TapSlop=1px
