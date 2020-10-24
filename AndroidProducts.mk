@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/zenx_X00T.mk
+    $(LOCAL_DIR)/rr_X00T.mk
 
 COMMON_LUNCH_CHOICES := \
-    zenx_X00T-user \
-    zenx_X00T-userdebug \
-    zenx_X00T-eng
+    rr_X00T-user \
+    rr_X00T-userdebug \
+    rr_X00T-eng
