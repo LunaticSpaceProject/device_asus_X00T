@@ -31,4 +31,10 @@
     <!-- FPSInfoService Fps file path -->
     <string name="config_fpsInfoSysNode" translatable="false">/sys/devices/virtual/graphics/fb0/measured_fps</string>
 
+    <!-- Set the automatic brightness mode on by default -->
+    <bool name="def_screen_brightness_automatic_mode">false</bool>
+
+    <!-- Enable vibrate for calls by default -->
+    <bool name="def_vibrate_when_ringing">true</bool>
+
 </resources>

@@ -24,4 +24,20 @@
     <!-- Disable bluetooth by default -->
     <bool name="def_bluetooth_on">false</bool>
 
+    <!-- Enable doze mode -->
+    <bool name="doze_display_state_supported">true</bool>
+
+    <!-- Smart replies in notifications: Whether we disable the feature unless the app targets P -->
+    <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
+
+    <!-- Allow devices override audio panel location to the left side -->
+    <bool name="config_audioPanelOnLeftSide">true</bool>
+
+     <!-- Allow devices to enforce the H265 encoder for screen recordings -->
+     <bool name="config_useNewScreenRecEncoder">false</bool>
+
+     <!-- For how long the lock screen can be on before the display turns off. -->
+     <integer name="config_lockScreenDisplayTimeout">7000</integer>
+
+
 </resources>
