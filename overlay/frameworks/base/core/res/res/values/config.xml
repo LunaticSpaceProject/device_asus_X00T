@@ -621,9 +621,26 @@
 
     <!-- Whether or not we should show vendor mismatch message -->
     <bool name="config_show_vendor_mismatch_message">false</bool>
-    <!-- Sets the package name for device parts-->
-    <string name="config_device_parts_package_name" translatable="false">com.asus.zenparts</string>
-    <string name="config_device_parts_package_activity" translatable="false">com.asus.zenparts.DeviceSettingsActivity</string>    
+
+    <!-- Whether device supports variable refresh rate -->
+    <bool name="config_hasVariableRefreshRate">true</bool>
+      <!-- Default setting for refresh rate
+         0 = Auto
+         1 = 60HZ
+         2 = 90Hz -->
+    <integer name="config_defaultVariableRefreshRateSetting">2</integer>
+
+    <!-- The CPU temperature sensor path, defaults to empty -->
+    <string name="config_cpuTempSensor" translatable="false">/sys/class/thermal/thermal_zone4/temp</string>
+
+    <!-- The CPU temperature divider, if needed -->
+    <integer name="config_cpuTempDivider" translatable="false">1000</integer>
+
+    <!-- Disable SBC HD audio dual channel support by default -->
+    <bool name="config_enableSBCDualChannelAudio">false</bool>
+
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
 
     <!-- Flag indicating whether the surface flinger has limited alpha compositing functionality in hardware. If set, the window manager will disable alpha trasformation in animations where not strictly needed. -->
     <bool name="config_sf_limitedAlpha">true</bool>
